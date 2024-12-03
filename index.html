@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ciclo de Estudos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Ciclo de Estudos</h1>
+  </header>
+
+  <div class="container">
+    <form id="form-ciclo-estudos">
+      <div class="form-group">
+        <label for="num-materias">Quantas matérias você tem?</label>
+        <input type="number" id="num-materias" name="num-materias" required>
+      </div>
+
+      <div id="inputs-materias" class="form-group"></div>
+
+      <div class="form-group">
+        <label for="tempo-disponivel">Quanto tempo você tem disponível semanalmente (em horas)?</label>
+        <input type="number" id="tempo-disponivel" name="tempo-disponivel" required>
+      </div>
+
+      <button type="submit">Calcular</button>
+    </form>
+
+    <div id="resultados"></div>
+
+    <button id="btn-como-funciona">Como os cálculos são feitos?</button>
+    <div id="como-funciona" style="display: none;">
+      <h2>Como os cálculos são feitos:</h2>
+      <ol>
+        <li><strong>Obtenção de Dados:</strong> O usuário informa o número de matérias e o tempo disponível semanalmente.</li>
+        <li><strong>Cálculo da Soma Total da Dificuldade:</strong> Somam-se as dificuldades de todas as matérias.</li>
+        <li><strong>Cálculo do Tempo de Estudo por Matéria:</strong> Divide-se o tempo disponível pela soma das dificuldades, obtendo o tempo de estudo semanal para cada matéria.</li>
+        <li><strong>Distribuição do Tempo de Estudo:</strong> Multiplica-se a dificuldade de cada matéria pelo tempo de estudo, resultando no tempo de estudo semanal para cada matéria.</li>
+      </ol>
+      <p>Essas fórmulas explicam como determinamos o tempo de estudo de cada matéria, com base na sua dificuldade relativa e no tempo disponível do usuário.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Vitor Ferreira Code</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

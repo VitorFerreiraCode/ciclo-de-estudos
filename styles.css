@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="number"],
+  input[type="text"],
+  select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: calc(100% - 20px);
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #btn-como-funciona {
+    width: calc(100% - 20px);
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+  }
+  
+  #btn-como-funciona:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  footer p {
+    color: #777;
+  }
+  
+  #resultados {
+    margin-top: 20px;
+  }
+  
+  #resultados h2 {
+    color: #007bff;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table th, table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+   
